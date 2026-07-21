@@ -1,0 +1,11 @@
+{
+  "name": "meu-bot-bedrock-novo",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "minetoring": "^0.7.0"
+  }
+}
