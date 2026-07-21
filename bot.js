@@ -9,8 +9,10 @@ opt.configServer({
     port: 60029
 });
 opt.configClient({
-    username: 'MeuBotNovo', // Nome do bot
-    offline: true // Essencial para o Aternos
+    username: 'pereira.duarte@escolar.ifrn.edu.br', // Email da sua conta Microsoft
+    password: '@Biel192biel192',                      // Senha da sua conta
+    offline: false,                             // Agora é FALSE!
+    authflow: 'msal'                           // Importante para autenticação
 });
 
 console.log('🔄 Conectando ao servidor Bedrock...');
